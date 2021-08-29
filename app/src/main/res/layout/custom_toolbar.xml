@@ -5,8 +5,9 @@
     android:orientation="horizontal">
 
     <ImageView
-        android:layout_width="@dimen/icon_size"
-        android:layout_height="match_parent"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
         android:src="@drawable/ic_navigation_menu"
         android:contentDescription="@string/navigation_icon_description">
     </ImageView>
@@ -15,17 +16,18 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:gravity="center"
+        android:gravity="center|bottom"
         android:text="@string/template_title_3"
         android:textAlignment="gravity"
         android:textColor="@color/black"
-        android:textSize="@dimen/large_text_size">
+        android:textSize="24sp">
 
     </TextView>
 
     <ImageView
-        android:layout_width="@dimen/icon_size"
-        android:layout_height="match_parent"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
         android:src="@drawable/ic_notification"
         android:contentDescription="@string/navigation_icon_description">
 

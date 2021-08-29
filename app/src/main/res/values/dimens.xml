@@ -10,7 +10,7 @@
     <dimen name="elevation_card_view">2dp</dimen>
     <dimen name="corner_radius_card_view">5dp</dimen>
     <dimen name="width_card_view">120dp</dimen>
-    <dimen name="height_card_view">100dp</dimen>
+    <dimen name="height_card_view">90dp</dimen>
     <dimen name="text_size_large">80sp</dimen>
     <dimen name="text_size_small">18sp</dimen>
     <dimen name="current_weather_image_width">160dp</dimen>

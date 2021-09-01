@@ -13,7 +13,7 @@
         android:theme="@style/ThundercloudMainTheme">
         <activity
             android:screenOrientation="portrait"
-            android:name="com.example.thunderclouds.presentation.MainActivity">
+            android:name="com.example.thunderclouds.presentation.screens.mainactivity.MainActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

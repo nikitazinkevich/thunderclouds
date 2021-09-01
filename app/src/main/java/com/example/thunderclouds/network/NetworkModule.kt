@@ -1,5 +1,6 @@
 package com.example.thunderclouds.network
 
+import com.example.core.data.ForecastRemoteDataSource
 import com.example.thunderclouds.Configuration
 import com.example.thunderclouds.di.BaseUrl
 import com.example.thunderclouds.di.InterceptorQualifier
@@ -80,6 +81,11 @@ class NetworkModule {
     @Provides
     @BaseUrl
     fun provideBaseUrl(): String = Configuration.BASE_URL
+
+
+    @Provides
+    fun provideForecastRemoteDataSource(service: WeatherService) : ForecastRemoteDataSource =
+        ForecastRemoteDataSourceImpl(service)
 
 }
 

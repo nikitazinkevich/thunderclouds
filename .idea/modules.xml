@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Thunderclouds.iml" filepath="$PROJECT_DIR$/.idea/Thunderclouds.iml" group="Thunderclouds" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Thunderclouds/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" group="Thunderclouds/core" />
     </modules>
   </component>
 </project>

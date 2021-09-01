@@ -60,5 +60,9 @@ dependencies {
 
     // JSON Converter
     implementation libs.network.jsonConverter
+    implementation "com.google.dagger:dagger-android-support:$versions.dagger"
 
+    kapt "com.google.dagger:dagger-android-processor:$versions.dagger"
+
+    implementation project(":core")
 }

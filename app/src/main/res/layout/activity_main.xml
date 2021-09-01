@@ -8,7 +8,7 @@
     android:layout_marginStart="@dimen/default_medium_margin"
     android:layout_marginEnd="@dimen/default_medium_margin"
     android:fitsSystemWindows="true"
-    tools:context=".presentation.MainActivity">
+    tools:context=".presentation.screens.mainactivity.MainActivity">
 
 
 

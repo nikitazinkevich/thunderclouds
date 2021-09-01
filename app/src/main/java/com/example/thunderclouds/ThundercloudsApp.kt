@@ -2,6 +2,7 @@ package com.example.thunderclouds
 
 import android.app.Application
 import android.util.Log
+import com.example.core.data.ForecastRemoteDataSource
 import com.example.thunderclouds.di.DaggerAppComponent
 import com.example.thunderclouds.network.WeatherService
 import dagger.android.AndroidInjector
@@ -17,12 +18,11 @@ class ThundercloudsApp : DaggerApplication() {
 
     private val applicationScope = CoroutineScope(Dispatchers.IO + Job())
 
-    @Inject
-    lateinit var weatherService: WeatherService
+
 
     override fun onCreate() {
         super.onCreate()
-        
+
 
     }
 

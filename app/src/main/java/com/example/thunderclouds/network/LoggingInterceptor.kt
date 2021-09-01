@@ -2,7 +2,7 @@ package com.example.thunderclouds.network
 
 import android.util.Log
 import com.example.thunderclouds.Configuration
-import com.example.thunderclouds.presentation.MainActivity
+import com.example.thunderclouds.presentation.screens.mainactivity.MainActivity
 import okhttp3.Interceptor
 import okhttp3.Response
 

@@ -2,6 +2,8 @@ package com.example.thunderclouds.presentation.screens.dailyforecast
 
 import android.content.Context
 import android.os.Bundle
+import android.os.HandlerThread
+import android.os.Looper
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -29,9 +31,6 @@ class DailyForecastFragment : Fragment() {
     private val dailyForecastViewModel by viewModels<DailyForecastViewModel>{
         viewModelFactory
     }
-
-
-
 
     private lateinit var currentConditionTextView: TextView
     private lateinit var currentTemperatureTextView: TextView

@@ -1,4 +1,4 @@
-package com.example.thunderclouds.network
+package com.example.thunderclouds.presentation.network
 
 import android.util.Log
 import com.example.thunderclouds.Configuration

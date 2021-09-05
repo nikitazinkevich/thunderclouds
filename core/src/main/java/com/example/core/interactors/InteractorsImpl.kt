@@ -4,9 +4,9 @@ import com.example.core.domain.Forecast
 import javax.inject.Inject
 import javax.inject.Provider
 
-class ForecastFacadeImpl
+class InteractorsImpl
 
-@Inject constructor() : ForecastFacade{
+@Inject constructor() : Interactors{
 
     @Inject
     lateinit var getForecastUseCase: Provider<GetForecastUseCase>

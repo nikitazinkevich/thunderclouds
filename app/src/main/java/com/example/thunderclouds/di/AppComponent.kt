@@ -1,12 +1,15 @@
 package com.example.thunderclouds.di
 
 import android.content.Context
+import coil.ImageLoader
+import coil.decode.SvgDecoder
 import com.example.core.CoreModule
 import com.example.thunderclouds.ThundercloudsApp
-import com.example.thunderclouds.network.NetworkModule
+import com.example.thunderclouds.presentation.network.NetworkModule
 import com.example.thunderclouds.presentation.screens.dailyforecast.DailyForecastFragmentModule
 import dagger.BindsInstance
 import dagger.Component
+import dagger.Provides
 import dagger.android.AndroidInjectionModule
 import dagger.android.AndroidInjector
 import javax.inject.Singleton
@@ -29,4 +32,6 @@ interface AppComponent : AndroidInjector<ThundercloudsApp> {
         fun build(): AppComponent
 
     }
+
+
 }

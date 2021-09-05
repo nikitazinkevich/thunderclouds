@@ -1,4 +1,4 @@
-package com.example.thunderclouds.network
+package com.example.thunderclouds.presentation.network
 
 import com.example.core.data.ForecastRemoteDataSource
 import com.example.core.domain.Forecast

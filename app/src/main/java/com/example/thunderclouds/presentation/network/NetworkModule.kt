@@ -1,5 +1,8 @@
-package com.example.thunderclouds.network
+package com.example.thunderclouds.presentation.network
 
+import android.content.Context
+import coil.ImageLoader
+import coil.decode.SvgDecoder
 import com.example.core.data.ForecastRemoteDataSource
 import com.example.thunderclouds.Configuration
 import com.example.thunderclouds.di.BaseUrl
@@ -86,6 +89,8 @@ class NetworkModule {
     @Provides
     fun provideForecastRemoteDataSource(service: WeatherService) : ForecastRemoteDataSource =
         ForecastRemoteDataSourceImpl(service)
+
+
 
 }
 

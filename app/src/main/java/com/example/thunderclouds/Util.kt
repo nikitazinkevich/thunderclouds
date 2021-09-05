@@ -2,12 +2,10 @@ package com.example.thunderclouds
 
 import android.Manifest
 import android.content.pm.PackageManager
-import android.location.LocationListener
 import android.location.LocationManager
 import android.os.Build
 import android.view.WindowManager
 import androidx.core.app.ActivityCompat
-import com.example.thunderclouds.network.ForecastJSON
 import com.example.thunderclouds.presentation.screens.mainactivity.MainActivity
 
 fun MainActivity.setTransparentStatusBar() {

@@ -1,4 +1,4 @@
-package com.example.thunderclouds.network
+package com.example.thunderclouds.presentation.network
 
 import com.example.core.domain.Forecast
 import kotlinx.serialization.SerialName
@@ -130,6 +130,7 @@ fun ResponseJson.asDomainModel() : Forecast {
         temperature = fact.temperature,
         feelsLike = fact.feelsLike,
         condition = forecast.parts[0].condition,
-        humidity = fact.humidity
+        humidity = fact.humidity,
+        url = fact.icon
     )
 }

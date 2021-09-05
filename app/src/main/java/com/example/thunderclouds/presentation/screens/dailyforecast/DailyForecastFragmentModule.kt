@@ -20,4 +20,6 @@ interface DailyForecastFragmentModule {
     @IntoMap
     @ViewModelKey(DailyForecastViewModel::class)
     fun dailyViewModel(dailyForecastViewModel: DailyForecastViewModel) : ViewModel
+
+
 }
